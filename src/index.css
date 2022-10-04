@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --clr-dark: #303234; 
+  --clr-white: #FAFAFA; 
+  --clr-accent: #d946ef;
+}
+
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 2;
+  font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* links */
+
+a {
+   all: unset;
+   font: inherit;
+}
+
+a:hover {
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+#about a {
+   opacity: .60;
+   text-decoration: underline; 
+}
+
+#about a:hover {
+   opacity: 1;
+}
+
+a img {
+   margin-top: .4rem;
+   width: 1.375rem;
+   height: 1.375rem;
+}
+
+ul, li {
+   all: unset;
+}
+
+/* box-shadow */
+
+.box-shadow-white {
+   box-shadow: -23px -23px 45px rgba(250, 250, 250, 0.1), 28px 28px 50px rgba(30, 45, 71, 0.16);
+}
+
+.box-shadow-dark {
+   box-shadow: -9px -9px 18px rgba(49, 55, 65, 0.4), 9px 9px 18px rgba(0, 0, 0, 0.4);
+}
+
+
+/* dark/light mode */
+
+.dark {
+   @apply bg-gray-800 text-zinc-50;
+}
+
+.light {
+   @apply bg-zinc-50 text-gray-800;
+}
