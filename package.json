@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "private": true,
-  "homepage": "https://naomi-pham.github.io/react-gh-pages",
+  "homepage": "https://naomi-pham.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
