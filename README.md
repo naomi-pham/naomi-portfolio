@@ -2,7 +2,7 @@
 
 🚀 [Demo link](https://naomi-pham.netlify.app/)
 
-![Portfolio-Light](https://raw.githubusercontent.com/naomi-pham/naomi-portfolio/main/public/assets/Screenshot%202022-10-05%2015.54.46.png)
+![Portfolio-Light](https://raw.githubusercontent.com/naomi-pham/naomi-portfolio/main/public/assets/portfolio.png)
 
 ## Table of contents
 * [General info](#general-info)
