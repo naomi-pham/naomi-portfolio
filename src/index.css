@@ -10,12 +10,13 @@
 }
 
 
-body {
+html, body {
   font-family: 'Fira Sans', sans-serif;
   line-height: 2;
-  font-size: 1.125rem;
-  padding: 0;
+  font-size: 1rem;
+  font-weight: 300;
   margin: 0;
+  padding: 0;
 }
 
 /* links */
@@ -27,7 +28,6 @@ a {
 
 a:hover {
    cursor: pointer;
-   text-decoration: underline;
 }
 
 #about a {
@@ -49,6 +49,19 @@ ul, li {
    all: unset;
 }
 
+.underline-emerald {
+   position: relative;
+ }
+ 
+ .underline-emerald:before {
+   position: absolute;
+   height: 0.25rem;
+   width: 2.25rem;
+   bottom: 0.4rem; 
+   content: "";
+   background: #10b981;
+ }
+
 /* box-shadow */
 
 .box-shadow-white {
@@ -63,9 +76,13 @@ ul, li {
 /* dark/light mode */
 
 .dark {
-   @apply bg-gray-800 text-zinc-50;
+   @apply bg-zinc-900 text-zinc-100;
 }
 
-.light {
-   @apply bg-zinc-50 text-gray-800;
+/* media query */
+
+@media (min-width: 600px) {
+   body {
+      font-size: 1.25rem;
+   }
 }
