@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Travel Logs",
-        desc: "Multiple-page travel blog. Built with NextJS and GraphQL API from Hydra Headless CMS.", 
+        desc: "Multiple-page travel blog. Built with NextJS and GraphQL API from Hygraph CMS.", 
         demoLink: "https://my-travel-logs.vercel.app/",
         githubLink: "https://github.com/naomi-pham/my-travel-logs/",
         tags: ["React", "NextJS", "GraphQL"]
