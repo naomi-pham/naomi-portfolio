@@ -1,5 +1,7 @@
 # Responsive React Portfolio
 
+![Portfolio-Dark](https://raw.githubusercontent.com/naomi-pham/naomi-portfolio/main/public/assets/Screenshot%202022-10-11%2018.19.14.png)
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
