@@ -12,7 +12,7 @@ export default [
         title: "World Cuisines",
         desc: "Recipe Searching App. Made with ReactJS, DM Meal API, TailwindCSS & Daisy UI.", 
         demoLink: "https://all-world-cuisines.netlify.app/",
-        githubLink: "https://all-world-cuisines.netlify.app/",
+        githubLink: "https://github.com/naomi-pham/world-cuisines",
         tags: ["ReactJS", "API", "TailwindCSS"]
     }, 
     {
@@ -20,7 +20,7 @@ export default [
         title: "Responsive Portfolio",
         desc: "Responsive Portfolio Website. Built with ReactJS and styled with Tailwind CSS", 
         demoLink: "https://naomi-pham.netlify.app/",
-        githubLink: "https://naomi-pham.netlify.app/",
+        githubLink: "https://github.com/naomi-pham/naomi-portfolio",
         tags: ["React", "Tailwind", "Figma"]
     }, 
     {
