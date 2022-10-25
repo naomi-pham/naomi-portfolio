@@ -9,7 +9,7 @@
 * [Setup](#setup)
 
 ## General info
-This is my personal portfolio built with ReactJS and Tailwind CSS. It is also designed with Figma. 
+This is my personal portfolio built with ReactJS and Tailwind CSS. It is also designed with Figma. 👉 [Check out my Figma design](https://www.figma.com/community/file/1156595998526618380). 
 	
 ## Technologies
 Project is created with:
